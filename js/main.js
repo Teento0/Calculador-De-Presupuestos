@@ -6346,7 +6346,7 @@ $(document).on("ready", function () {
             .filter('[data-question-id="' + i + '"]');
         r.find(".js--result-answer").text(o),
           r.find(".js--result-image").attr({
-            src: "/img/" + c.appType + "/answer-" + i + "-" + a + ".png",
+            src: "../img/" + c.appType + "/answer-" + i + "-" + a + ".png",
             alt: o,
           });
       }
